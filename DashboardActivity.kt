@@ -12,7 +12,7 @@ class DashboardActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
 
         // Retrieve the username passed from the login activity
-        val username = intent.getStringExtra("username") ?: "User"
+        val username = intent.getStringExtra("USERNAME") ?: "User"
 
         // Set up the content using Jetpack Compose and custom theme
         setContent {
